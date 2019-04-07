@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Edit History: {{ page.title }}
+{% endblock title %}
+
+{% block content %}
+    <div class="span9">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Author</th>
+                    <th scope="col">Message</th>
+                    <th scope="col">Date/Time</th>
+                    <th scope="col">View</th>
+                    <th scope="col">Revert</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for key, value in changes.items()|reverse %}
+                <tr>
+                    <td>{{ key }}</td>
+                    <td>{{ value["author"] }}</td>
+                    <td>{{ value["message"] }}</td>
+                    <td>{{ value["datetime"] }}</td>
+                    {% if value["action"] != "create" %}
+                        <td> <a class="btn btn-secondary" href="{{ url_for('wiki.view', url=page.url, index=key) }}" role="button">View</a> </td>
+                    {% else %}
+                        <td></td>
+                    {% endif %}
+                    {% if value["action"] == "move" %}
+                        <td>Must use "move" action!</td>
+                    {% elif key == changes.keys()|max %}
+                        <td></td>
+                    {% elif value["action"] == "create" %}
+                        <td></td>
+                    {% elif value["action"] == "revert" %}
+                        <td></td>
+                    {% else %}
+                        <td> <a class="btn btn-warning" href="{{ url_for('wiki.revert', url=page.url, index=key) }}" role="button">Revert</a> </td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock content %}
