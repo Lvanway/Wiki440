@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f42833e-6a46-4f94-a988-0046fa704818" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/wiki/web/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/web/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wiki/web/templates/editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/web/templates/editor.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wiki/web/templates/editor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+            <state relative-caret-position="208">
+              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
               <folding>
                 <element signature="e#385#411#0" expanded="true" />
                 <element signature="e#944#1129#0" expanded="true" />
@@ -103,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/templates/history.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="277">
               <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
@@ -625,13 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/web/templates/history.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -673,10 +665,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/web/templates/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/editor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="152" column="1" selection-start-line="152" selection-start-column="1" selection-end-line="152" selection-end-column="1" />
+        <state relative-caret-position="208">
+          <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
           <folding>
             <element signature="e#385#411#0" expanded="true" />
             <element signature="e#944#1129#0" expanded="true" />
