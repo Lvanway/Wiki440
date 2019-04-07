@@ -58,6 +58,26 @@ def display(url):
     return render_template('page.html', page=page)
 
 
+@bp.route('/comment/')
+@protect
+def comment():
+    file = open("comment.txt", "r")
+    lines = file.readlines()
+    file.close()
+    return render_template("comment.html", lines=lines)
+
+
+@bp.route('/result/', methods=['POST'])
+@protect
+def result():
+    article = request.form["article"]
+    name = request.form["name"]
+    file = open("comment.txt", "a")
+    file.write(article + "," + name + "\n")
+    file.close()
+    return render_template("result.html", article=article, name=name)
+
+
 @bp.route('/<path:url>/history/', methods=['GET'])
 @protect
 def history(url):

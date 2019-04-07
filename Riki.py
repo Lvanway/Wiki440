@@ -10,6 +10,9 @@ app = create_app(directory)
 if not os.path.exists('./history/content/'):
     os.makedirs('./history/content/')
 
+if not os.path.exists('./comment.txt'):
+    open('./comment.txt', 'w').close()
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
 

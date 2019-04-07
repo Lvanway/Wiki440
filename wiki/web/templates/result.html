@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Page Result
+{% endblock title %}
+
+{% block content %}
+    <h2>Your comment has been posted</h2>
+    <form action="{{ url_for('wiki.comment') }}" method="get">
+        <p>{{ article }} {{ name }}</p>
+        <button type="submit">back</button>
+    </form>
+{% endblock %}

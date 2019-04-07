@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Page Comment
+{% endblock title %}
+
+{% block content %}
+    <form action="{{ url_for('wiki.result') }}" method="post">
+        <label for="article">Post</label>
+        <input type="text" name="article">
+        <p></p>
+        <label for="name">Name</label>
+        <input type="text" name="name">
+        <button type="submit">Send</button>
+    </form>
+
+    <h2>Message</h2>
+        <table>
+            <tr>
+                <th>Post</th>
+                <th>Name</th>
+            </tr>
+            {% for line in lines: %}
+                {% set column = line.rstrip().split(",") %}
+                    <tr>
+                        {% for item in column: %}
+                            <td>{{ item }}</td>
+                        {% endfor %}
+                    </tr>
+            {% endfor %}
+        </table>
+{% endblock content %}

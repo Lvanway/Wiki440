@@ -70,6 +70,11 @@
 					{% endblock sidebar %}
 				</div>
 			</div>
+			<script type="text/javascript">
+				var fs = require('fs');
+				var text = fs.readFileSync('./comment.txt', 'utf-8');
+				console.log(text);
+			</script>
 		</div>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js "></script>
 		<script type="text/javascript">
