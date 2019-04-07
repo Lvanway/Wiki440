@@ -78,6 +78,18 @@ def result():
     return render_template("result.html", article=article, name=name)
 
 
+@bp.route('/autocomplete/<query>/', methods=['GET'])
+@protect
+def autocomplete(query):
+    result = "";
+    if(current_wiki.search(query, 1)):
+        url = current_wiki.search(query, 1)[0].url
+        name = current_wiki.search(query, 1)[0].title
+        result = "<a href='/" + url + "'>" + name + "</a>"
+
+    return result
+
+
 @bp.route('/<path:url>/history/', methods=['GET'])
 @protect
 def history(url):
