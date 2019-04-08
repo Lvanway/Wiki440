@@ -18,6 +18,7 @@ from wiki.web.forms import EditorForm
 from wiki.web.forms import LoginForm
 from wiki.web.forms import SearchForm
 from wiki.web.forms import URLForm
+from wiki.web.forms import ContactForm
 from wiki.web import current_wiki
 from wiki.web import current_users
 from wiki.web.user import protect
@@ -29,7 +30,10 @@ from history.history import revert_to_index
 from history.history import move_history
 from history.history import delete_history
 
+from contacts.contacts import ContactManager
+
 import os
+import json
 
 
 bp = Blueprint('wiki', __name__)
@@ -115,6 +119,23 @@ def revert(url, index):
     data = revert_to_index(url, index)
     add_history(url, 'WikiBot', 'Reverted to index: ' + index, data[0], data[1], 'revert')
     return redirect(url_for('wiki.display', url=url))
+
+
+@bp.route('/contactform/', methods=['GET', 'POST'])
+def contact_form():
+    form = ContactForm()
+    if form.validate_on_submit():
+        manager = ContactManager('user')
+        manager.add_contact(form.first_name.data, form.last_name.data, form.email.data)
+        return render_template('home.html')
+    return render_template('contactform.html', form=form)
+
+
+@bp.route('/contactdisplay/')
+def display_contacts():
+    with open('./user/contacts.json', 'r') as json_file:
+        contacts = json.load(json_file)
+        return render_template('contactdisplay.html', contacts=contacts)
 
 
 @bp.route('/create/', methods=['GET', 'POST'])

@@ -42,6 +42,12 @@ class EditorForm(FlaskForm):
     tags = TextField('')
 
 
+class ContactForm(FlaskForm):
+    first_name = TextField('')
+    last_name = TextField('')
+    email = TextField('')
+
+
 class LoginForm(FlaskForm):
     name = TextField('', [InputRequired()])
     password = PasswordField('', [InputRequired()])

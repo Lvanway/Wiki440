@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f42833e-6a46-4f94-a988-0046fa704818" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contacts/contacts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_autocomplete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/contacts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki/web/templates/contactdisplay.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wiki/web/templates/contactform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_history.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_history.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/web/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/web/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/web/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/web/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/web/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki/web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/wiki/web/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,23 +24,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/web/routes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
+            <state relative-caret-position="-3439">
+              <caret line="30" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_autocomplete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
-                <element signature="e#30#57#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/web/templates/editor.html">
+        <entry file="file://$PROJECT_DIR$/tests/test_history.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="68" selection-start-line="18" selection-start-column="68" selection-end-line="18" selection-end-column="68" />
+            <state relative-caret-position="-1141">
+              <caret lean-forward="true" />
               <folding>
-                <element signature="e#385#411#0" expanded="true" />
-                <element signature="e#944#1129#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Riki.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+            <state relative-caret-position="240">
+              <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -51,13 +67,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/history/history.py">
+        <entry file="file://$PROJECT_DIR$/wiki/web/templates/contactdisplay.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-125">
-              <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
+            <state relative-caret-position="315">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/contacts.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contacts/contacts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-274">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wiki/web/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="24" column="92" lean-forward="true" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -68,39 +123,6 @@
             <state>
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/web/templates/history.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_history.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#4#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,7 +164,6 @@
         <option value="$PROJECT_DIR$/wiki/web/templates/page.html" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/history/content/testjson.json" />
-        <option value="$PROJECT_DIR$/wiki/web/forms.py" />
         <option value="$PROJECT_DIR$/history/content/make.json" />
         <option value="$PROJECT_DIR$/wiki/web/templates/revert.html" />
         <option value="$PROJECT_DIR$/history/content/test.json" />
@@ -155,14 +176,20 @@
         <option value="$PROJECT_DIR$/wiki/web/templates/history.html" />
         <option value="$PROJECT_DIR$/wiki/web/templates/comment.html" />
         <option value="$PROJECT_DIR$/wiki/web/templates/result.html" />
-        <option value="$PROJECT_DIR$/wiki/web/templates/base.html" />
-        <option value="$PROJECT_DIR$/wiki/web/routes.py" />
         <option value="$PROJECT_DIR$/wiki/web/templates/editor.html" />
-        <option value="$PROJECT_DIR$/wiki/web/__init__.py" />
         <option value="$PROJECT_DIR$/history/history_tests.py" />
         <option value="$PROJECT_DIR$/test_history.py" />
         <option value="$PROJECT_DIR$/Riki.py" />
         <option value="$PROJECT_DIR$/tests/test_history.py" />
+        <option value="$PROJECT_DIR$/wiki/web/templates/base.html" />
+        <option value="$PROJECT_DIR$/wiki/web/forms.py" />
+        <option value="$PROJECT_DIR$/contacts/contacts.py" />
+        <option value="$PROJECT_DIR$/wiki/web/templates/contactform.html" />
+        <option value="$PROJECT_DIR$/wiki/web/templates/contactdisplay.html" />
+        <option value="$PROJECT_DIR$/user/contacts.json" />
+        <option value="$PROJECT_DIR$/wiki/web/routes.py" />
+        <option value="$PROJECT_DIR$/wiki/web/__init__.py" />
+        <option value="$PROJECT_DIR$/tests/test_autocomplete.py" />
       </list>
     </option>
   </component>
@@ -183,6 +210,11 @@
             <path>
               <item name="Wiki440" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wiki440" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Wiki440" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wiki440" type="462c0819:PsiDirectoryNode" />
+              <item name="contacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Wiki440" type="b2602c69:ProjectViewProjectNode" />
@@ -257,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_history.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_autocomplete.py">
     <configuration name="Riki" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Wiki440" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,17 +339,17 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in /Users/lvanway/440/Wiki440/history/history_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_autocomplete.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Wiki440" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/history" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/history/history_tests.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_autocomplete.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -337,11 +369,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_autocomplete.py" />
+        <item itemvalue="Python.Riki" />
         <item itemvalue="Python tests.Unittests in test_history.py" />
         <item itemvalue="Python tests.Unittests for tests.test_history.TestHistory.test_add_history" />
         <item itemvalue="Python tests.Unittests for tests.test_history.TestHistory.test_get_history" />
-        <item itemvalue="Python tests.Unittests in /Users/lvanway/440/Wiki440/history/history_tests.py" />
-        <item itemvalue="Python.Riki" />
       </list>
     </recent_temporary>
   </component>
@@ -359,51 +391,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_history_TestHistory_test_add_history - 2019.04.07 at 19h 52m 54s.xml">
-      <configuration name="Unittests for test_history.TestHistory.test_add_history" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 19h 53m 44s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 19h 56m 25s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 19h 59m 15s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 12m 42s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 13m 44s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 14m 36s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 16m 53s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 19m 13s.xml">
-      <configuration name="Unittests in test_history.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 21m 11s.xml">
       <configuration name="Unittests in test_history.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 38m 37s.xml">
+      <configuration name="Unittests in test_history.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_history_py - 2019.04.07 at 20h 39m 25s.xml">
+      <configuration name="Unittests in test_history.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_autocomplete_py - 2019.04.07 at 21h 12m 55s.xml">
+      <configuration name="Unittests in test_autocomplete.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_autocomplete_py - 2019.04.07 at 21h 14m 11s.xml">
+      <configuration name="Unittests in test_autocomplete.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_autocomplete_py - 2019.04.07 at 21h 16m 14s.xml">
+      <configuration name="Unittests in test_autocomplete.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_autocomplete_py - 2019.04.07 at 21h 16m 33s.xml">
+      <configuration name="Unittests in test_autocomplete.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_autocomplete_py - 2019.04.07 at 21h 17m 53s.xml">
+      <configuration name="Unittests in test_autocomplete.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_autocomplete_py - 2019.04.07 at 21h 21m 28s.xml">
+      <configuration name="Unittests in test_autocomplete.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_autocomplete_py - 2019.04.07 at 21h 22m 19s.xml">
+      <configuration name="Unittests in test_autocomplete.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="939" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20735383" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.4996986" weight="0.3140496" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5135624" side_tool="true" visible="true" weight="0.3293979" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.51416516" side_tool="true" visible="true" weight="0.3293979" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49065703" weight="0.3293979" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.49005425" weight="0.3293979" />
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49849308" weight="0.3293979" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.48643762" visible="true" weight="0.3293979" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.48583484" visible="true" weight="0.3293979" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -414,7 +445,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/history/test.py" />
     <entry file="file://$PROJECT_DIR$/content/testpage.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -521,16 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/web/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="45" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
-          <folding>
-            <element signature="e#28#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -623,22 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/web/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="92" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/templates/editor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -684,42 +688,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Riki.py">
+    <entry file="file://$PROJECT_DIR$/wiki/web/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        <state relative-caret-position="271">
+          <caret line="46" column="29" lean-forward="true" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           <folding>
-            <element signature="e#24#33#0" expanded="true" />
+            <element signature="e#28#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
+    <entry file="file://$PROJECT_DIR$/wiki/web/templates/contactform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+        <state relative-caret-position="180">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/web/templates/contactdisplay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/contacts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacts/contacts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/web/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="24" column="92" lean-forward="true" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/web/routes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
-          <folding>
-            <element signature="e#30#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-3439">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_history.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="-1141">
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#0#4#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/web/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Riki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="39" lean-forward="true" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="e#24#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_autocomplete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

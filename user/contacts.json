@@ -1,0 +1,17 @@
+{
+    "Test2": {
+        "first_name": "Test",
+        "last_name": "Test2",
+        "email": "test2@gmail.com"
+    },
+    "Wernke": {
+        "first_name": "Joe",
+        "last_name": "Wernke",
+        "email": "wernkej1@nku.edu"
+    },
+    "VanWay": {
+        "first_name": "Logan",
+        "last_name": "VanWay",
+        "email": "vanwayl1@mymail.nku.edu"
+    }
+}

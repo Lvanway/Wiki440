@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Contact Information
+{% endblock title %}
+
+{% block content %}
+<form class="form-inline" method="POST">
+    {{ form.hidden_tag() }}
+    {{ input(form.first_name, placeholder="First Name") }}
+    {{ input(form.last_name, placeholder="Last Name") }}
+    {{ input(form.email, placeholder="Email Address") }}
+    <input type="submit" class="btn btn-primary" value="Confirm">
+</form>
+{% endblock content %}

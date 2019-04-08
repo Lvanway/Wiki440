@@ -1,0 +1,22 @@
+<h1> Contact Information </h1>
+
+<div class="span9">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for email, contact in contacts.items() %}
+                <tr>
+                    <td> {{ contact["first_name"]}} </td>
+                    <td> {{ contact["last_name"]}} </td>
+                    <td> {{ contact["email"]}} </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
