@@ -1,6 +1,6 @@
-title: Home
-tags: home
+title: Welcome!
+tags: 
 
-# This is our homepage!
+# Welcome to the Wiki!
 
-Welcome!
+<div style="color: red;">This text is red! Neat!</div>

@@ -9,6 +9,8 @@ from werkzeug.local import LocalProxy
 from wiki.core import Wiki
 from wiki.web.user import UserManager
 
+import unittest
+
 
 class WikiError(Exception):
     pass
@@ -50,6 +52,42 @@ def create_app(directory):
 
     from wiki.web.routes import bp
     app.register_blueprint(bp)
+
+    class TestAutocomplete(unittest.TestCase):
+
+        def test_toa(self):
+            with app.test_request_context():
+                import wiki.web.routes
+                self.assertEquals("<a href='/toast'>Toast</a>", routes.autocomplete("toa"))
+
+        def test_noresult(self):
+            with app.test_request_context():
+                import wiki.web.routes
+                self.assertEquals("", routes.autocomplete("toankal"))
+
+        def test_home(self):
+            with app.test_request_context():
+                import wiki.web.routes
+                self.assertEquals("<a href='/home'>test</a>", routes.autocomplete("test"))
+
+    class TestContactInfo(unittest.TestCase):
+        def test_contact_form(self):
+            tester = app.test_client(self)
+            response = tester.post(
+                '/contactform',
+                data=dict(first_name="Test", last_name="Entry", email="Testentry@gmail.com", contact_form=""),
+                follow_redirects=True
+            )
+            self.assertEquals(response.status_code, 200)
+
+    def suite():
+        suite = unittest.TestSuite()
+        suite.addTest(unittest.makeSuite(TestAutocomplete))
+        suite.addTest(unittest.makeSuite(TestContactInfo))
+        return suite
+
+    runner = unittest.TextTestRunner()
+    runner.run(suite())
 
     return app
 

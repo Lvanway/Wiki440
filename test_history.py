@@ -103,5 +103,4 @@ class TestHistory(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    os.chdir('../')
     unittest.main()
