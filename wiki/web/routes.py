@@ -138,6 +138,33 @@ def display_contacts():
         return render_template('contactdisplay.html', contacts=contacts)
 
 
+@bp.route('/admin/', methods=['GET', 'POST'])
+def admin():
+    form = LoginForm()
+    flash('Please log in to view this page', 'warning')
+    with open('./user/users.json', 'r') as json_file:
+        users = json.load(json_file)
+        if form.validate_on_submit():
+            user = current_users.get_user(form.name.data)
+            if user.get("roles")[0] == 'admin':
+                return render_template('admin.html', permission=True, users=users)
+            else:
+                return render_template('admin.html', permission=False, users=users)
+        return render_template('login.html', form=form)
+
+
+@bp.route('/changerole/<string:name>')
+def change_role(name):
+    user = current_users.get_user(name)
+    if user.get("roles")[0] == 'admin':
+        user.set("roles", ['user'])
+        user.save()
+    else:
+        user.set("roles", ['admin'])
+        user.save()
+    return redirect(url_for('wiki.admin'))
+
+
 @bp.route('/create/', methods=['GET', 'POST'])
 @protect
 def create():

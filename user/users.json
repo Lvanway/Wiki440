@@ -4,20 +4,35 @@
     "authentication_method": "cleartext",
     "password": "1234",
     "authenticated": true,
-    "roles": []
+    "roles": [
+      "user"
+    ]
   },
   "sam": {
     "active": true,
     "authentication_method": "cleartext",
     "password": "1234",
     "authenticated": true,
-    "roles": []
+    "roles": [
+      "user"
+    ]
   },
   "logan": {
     "active": true,
     "authentication_method": "cleartext",
     "password": "12345",
     "authenticated": true,
-    "roles": []
+    "roles": [
+      "user"
+    ]
+  },
+  "admin": {
+    "active": true,
+    "authentication_method": "cleartext",
+    "password": "admin",
+    "authenticated": true,
+    "roles": [
+      "admin"
+    ]
   }
 }

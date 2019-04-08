@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Admin Page
+{% endblock title %}
+
+{% block content %}
+    <div class="span9">
+        {% if permission %}
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">User</th>
+                        <th scope="col">Role</th>
+                        <th scope="col">Change Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for key, value in users.items() %}
+                    <tr>
+                        <td>{{ key }}</td>
+                        <td>{{ value["roles"][0] }}</td>
+                        {% if value["roles"][0] == "user" %}
+                            <td> <a class="btn btn-success" href="{{ url_for('wiki.change_role', name=key) }}" role="button">Make Admin</a> </td>
+                        {% else %}
+                            <td> <a class="btn btn-warning" href="{{ url_for('wiki.change_role', name=key) }}" role="button">Revoke Admin</a> </td>
+                        {% endif %}
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+        <h2>You do not have permission to view this page.</h2>
+        {% endif %}
+    </div>
+{% endblock content %}
